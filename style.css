@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul{
+    margin-left: 900px;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #4e6cc0, #0a0364);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 90px;
+    padding-left: 20px;
+}
+
+.navbar-brand li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600px;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* banner section */
+#banner{
+    background-image: linear-gradient(to right, #4e6cc0, #0a0364);
+    color: #fff;
+    padding-top: 2%;
+}
+#banner a{
+    color: #fff;
+    margin: 20px;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+/* second-banner section */
+#second-banner{
+    background-image: linear-gradient( #5858bb);
+    padding-top: 2%;
+    margin-top:70px;
+}
+
+.title{
+    color: rgb(11, 62, 104);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.design{
+    margin-top: 0px;
+}
+
+.first-img{
+    border-radius: 200px;
+}
+
+/* Thiird banner */
+#third-banner{
+    background-image: linear-gradient( #6767bb);
+    padding-top: 2%;
+    margin-top:80px;
+}
+
+.back-img{
+    width: 900px;
+    height: 300px;
+    margin-left: 1px;
+}
+
+h2{
+    margin-left: 100px;
+}
+
+/* photos-section */
+#photos{
+    padding: 80px 0;
+    background-image: linear-gradient(to bottom, #e5e9ecf5, #acc9eb);
+}
+/* #e2e7ecf5, #bab6c9 */
+.photos-img{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.photos-img:hover{
+    transform: scale(1.1);
+}
+
+.photos{
+    padding: 20px; 
+}
+
+.ident{
+    padding: 5px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: blue;
+}
